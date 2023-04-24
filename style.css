@@ -65,7 +65,44 @@ ul li .sub-li {
   display: flex;
   justify-content: center;
 }
+.for_you_box {
+  text-align: center;
+  width: 50%;
+  padding: 30px;
+}
+.here_for_you {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 0;
+}
+.for_you_wrapper {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: space-around +;
+}
+.here_for_you h2 {
+  text-transform: uppercase;
+}
 
+.for_you_box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+  font-weight: bold;
+  line-height: 1.5rem;
+  text-align: left;
+  color: var(--gray);
+}
+.for_you_box img {
+  width: 2.5rem;
+}
+.for_you_box {
+  font-weight: bold;
+}
 .how-help .how-help-content {
   width: 50%;
 }
